@@ -1,0 +1,88 @@
+.display_header img{
+	height: 60px;
+}
+.admin-color-fresh #redux-header{
+	background: #eee;
+}
+.redux-container .notice-yellow{
+	border-bottom: 1px solid #F0C36D;
+	border-top: 1px solid #F0C36D;
+	background-color: #F9EDBE;
+	color: #A86931;
+	padding: 8px 35px 8px 14px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+.wp-core-ui .button-primary{
+	cursor: pointer;
+	line-height: 27px;
+	padding: 0px 15px 0px 15px;
+	-moz-box-shadow: 1px 1px 3px #ddd;
+	-webkit-box-shadow: 1px 1px 3px #ddd;
+	box-shadow: 1px 1px 3px #ddd;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	border: 1px solid #DE9D2A;
+	background: #FEDA71;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FEDA71), color-stop(100%,#FEBA48));
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feda71', endColorstr='#feba48',GradientType=0 );
+	font-weight: bold;
+	font-size: 11px;
+	color: #7F5429;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+	box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.06);
+	text-decoration: none;	
+}
+
+.wp-core-ui .button-primary:hover{
+	background: #fafafa;
+	border-color: #999;
+	color: #222;
+}
+.admin-color-fresh #redux-header, .redux-container #redux-header{
+	border-color: transparent;
+}
+.redux-container-switch .cb-enable span{
+	color: #333;
+}
+.redux-container-switch .cb-disable span{
+	color: #333;
+}
+.admin-color-fresh .redux-container-switch .cb-disable, .admin-color-fresh .redux-container-switch .cb-enable, .admin-color-fresh .redux-container .ui-state-default, .admin-color-fresh .redux-container .ui-widget-content .ui-state-default, .admin-color-fresh .redux-container .ui-widget-header .ui-state-default{
+  background-color: #5EA028 !important;
+  border-color: #467F18;
+  color: #FFF;
+  border-radius: 0;
+}  
+.admin-color-fresh .redux-container-switch .cb-enable.selected, .admin-color-fresh .redux-container .ui-buttonset .ui-state-active{
+  background-color: #5EA028 !important;
+  color: #ffffff !important;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#5EA028), to(#467F18)) !important;
+  background-image: -moz-linear-gradient(top, #5EA028, #467F18) !important;
+  background-image: -ms-linear-gradient(top, #5EA028, #467F18) !important;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #5EA028), color-stop(100%, #467F18)) !important;
+  background-image: -webkit-linear-gradient(top, #5EA028, #467F18) !important;
+  background-image: -o-linear-gradient(top, #5EA028, #467F18) !important;
+  background-image: linear-gradient(top, #5EA028, #467F18) !important;
+  c: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5EA028', endColorstr='#467F18', GradientType=0) !important;
+  border-color: #999 !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border-radius: 0;
+}
+
+.redux-container-switch .cb-enable span, .redux-container-switch .cb-disable span{
+	border-radius: 0;
+}
+
+
+
+/*.redux-container-switch .cb-enable span, .redux-container-switch .cb-disable span{
+background: #EEE url(../img/button.png);
+border: 1px solid #EEE;
+float: left;
+width: auto;
+border: 1px solid #999;
+text-align: center;	
+}
+*/
